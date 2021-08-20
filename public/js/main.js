@@ -11,7 +11,7 @@ const getInfo = async(event) => {
     let cityVal = cityName.value;
 
     if(cityVal === ""){
-        city_name.innerText = `Plz write the name before search`;
+        city_name.innerText = `Please Seach Something.....`;
         datahide.classList.add("data_hide");
     }else{
 
@@ -51,8 +51,8 @@ const getInfo = async(event) => {
         }catch{
             cityVal = " ";
             datahide.classList.add("data_hide");
-            city_name.innerText =  `please enter the proper city name`;
-            console.log('please add the proper city name');
+            city_name.innerText =  `Oops!!,City not found`;
+            console.log("Oops!!,City not found");
         }
         
     }
