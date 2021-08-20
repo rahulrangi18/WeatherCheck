@@ -51,7 +51,7 @@ const getInfo = async(event) => {
         }catch{
             cityVal = " ";
             datahide.classList.add("data_hide");
-            city_name.innerText =  `Oops!!,City not found`;
+            city_name.innerText = `Oops!!,City not found 😞`;
             console.log("Oops!!,City not found 😞");
         }
         
